@@ -13,6 +13,7 @@
         android:ems="10"
         android:hint="token"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -22,15 +23,18 @@
         android:ems="10"
         android:hint="userID"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName2" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
         android:ems="10"
         android:hint="chatID"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/openclose"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3" />
 
     <androidx.recyclerview.widget.RecyclerView
